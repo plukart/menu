@@ -7,10 +7,14 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+  
   }
   
   .container {
     background: white;
+    background-image: url(patterns.png);
+    background-repeat: repeat;
+    background-size: auto;
     padding: 35px;
     border-radius: 16px;
     text-align: center;
