@@ -11,12 +11,18 @@ body {
   
   .container {
     background: white;
-    padding: 30px;
+    padding: 20px;
     border-radius: 16px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
-  
+
+.container img {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
   h1 {
     color: #333;
   }
