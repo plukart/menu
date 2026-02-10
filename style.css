@@ -56,7 +56,7 @@ body {
     background-color: #e50000;
   }
   
-  @media only screen and (device-width: 375px) and (device-height: 896px) {
+  @media (max-width: 768px) {
     .btn {
       display: flex;
       flex-direction: column;
