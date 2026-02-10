@@ -34,6 +34,8 @@ body {
   
   p {
     color: #666;
+    padding: 1%;
+    margin: 1%;
   }
   
   a.download-btn {
