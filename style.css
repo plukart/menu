@@ -13,6 +13,7 @@ body {
   }
   
   .container {
+
     background: #FFF6E9;
     padding: 35px;
     border-radius: 16px;
@@ -37,6 +38,8 @@ body {
     padding: 1%;
     margin: 1%;
   }
+
+  
   
   a.download-btn {
     display: inline-block;
@@ -53,3 +56,32 @@ body {
     background-color: #e50000;
   }
   
+  @media only screen and (device-width: 375px) and (device-height: 896px) {
+    .btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+      gap: 10px;
+    }
+}
+
+@media only screen and (device-width: 360px) and (device-height: 800px) {
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+  }
+}
+
+@media only screen and (device-width: 412px) and (device-height: 915px) {
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+  }
+}
